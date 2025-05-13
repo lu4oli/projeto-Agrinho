@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f9f9; /* Um tom de verde bem claro */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #e0f2f7; /* Azul bem claro */
+    color: #0277bd; /* Azul um pouco mais escuro para contraste */
+    padding: 2em;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    background-color: #fff;
+    padding: 2em;
+    margin-bottom: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #2e7d32; /* Verde um pouco mais escuro para o título */
+    margin-top: 0;
+    margin-bottom: 1em;
+    border-bottom: 2px solid #81c784; /* Verde claro para destacar o título */
+    padding-bottom: 0.5em;
+}
+
+.texto-destaque {
+    background-color: #e8f5e9; /* Verde bem claro para destacar o texto */
+    padding: 1.5em;
+    border-radius: 6px;
+    margin-bottom: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.7em;
+    padding-left: 1.2em;
+    position: relative;
+}
+
+ul li strong {
+    color: #1b5e20; /* Verde escuro para dar ênfase */
+}
+
+ul li::before {
+    content: "\2713"; /* Símbolo de checkmark */
+    color: #388e3c; /* Verde mais vibrante para o checkmark */
+    position: absolute;
+    left: 0;
+}
+
+footer {
+    background-color: #e0f2f7; /* Azul bem claro */
+    color: #0277bd; /* Azul um pouco mais escuro para contraste */
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
